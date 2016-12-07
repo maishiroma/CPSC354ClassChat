@@ -1,0 +1,25 @@
+<div id="messages" class="container">
+</div>
+
+<div id= "presence_list" class="col-md-2">
+	<h2>Online Users</h2>
+	<ul id="UserList" class="list-unstyled">
+		<li>Now loading...</li>
+	</ul>
+</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="input-group">
+						<span class="input-group-addon">@</span>
+						<input id="username" type="text" class="form-control" placeholder="Username">
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<input id="message-input" class="form-control" placeholder="Enter a message...">
+				</div>
+			</div>
+		</div>
+	</div>
